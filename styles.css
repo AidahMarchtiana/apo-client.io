@@ -37,3 +37,27 @@ header h1 {
   color: #5a3d31;
   display: inline-block;
 }
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #5a3d31;
+  font-weight: bold;
+  padding: 10px;
+}
+
+nav ul li a:hover {
+  background-color: #f2e2d2; /* Efek hover dengan warna cream */
+  border-radius: 5px;
+}
