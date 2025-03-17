@@ -123,3 +123,13 @@ form button {
 form button:hover {
   background-color: #e1c4a2;
 }
+
+/* Footer */
+footer {
+  text-align: center;
+  background-color: #f2e2d2;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
