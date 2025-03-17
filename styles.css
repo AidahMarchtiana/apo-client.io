@@ -58,17 +58,17 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  background-color: #f2e2d2; /* Efek hover dengan warna cream */
+  background-color: #f2e2d2;
   border-radius: 5px;
 }
 
 /* Section Home */
 #home {
-  background-image: url("image/bg.jpeg"); /* Ganti dengan nama file gambar makanan yang kamu miliki */
-  background-size: cover; /* Menyesuaikan gambar agar menutupi seluruh area */
-  background-position: center center; /* Memastikan gambar di posisi tengah */
-  color: white; /* Menambahkan warna teks putih agar kontras dengan gambar */
-  padding: 100px 0; /* Memberikan jarak atas dan bawah pada konten */
+  background-image: url("image/bg.jpeg");
+  background-size: cover;
+  background-position: center center;
+  color: white;
+  padding: 100px 0;
   text-align: center;
 }
 
