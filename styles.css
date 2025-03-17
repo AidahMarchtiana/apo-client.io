@@ -62,6 +62,28 @@ nav ul li a:hover {
   border-radius: 5px;
 }
 
+/* Section Home */
+#home {
+  background-image: url("image/bg.jpeg"); /* Ganti dengan nama file gambar makanan yang kamu miliki */
+  background-size: cover; /* Menyesuaikan gambar agar menutupi seluruh area */
+  background-position: center center; /* Memastikan gambar di posisi tengah */
+  color: white; /* Menambahkan warna teks putih agar kontras dengan gambar */
+  padding: 100px 0; /* Memberikan jarak atas dan bawah pada konten */
+  text-align: center;
+}
+
+/* Menyesuaikan tampilan teks di dalam Home */
+#home h2 {
+  font-size: 3em;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Menambahkan bayangan untuk teks agar lebih terlihat */
+}
+
+#home p {
+  font-size: 1.5em;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Menambahkan bayangan pada paragraf */
+}
+
 /* Section */
 section {
   padding: 40px 0;
