@@ -61,3 +61,30 @@ nav ul li a:hover {
   background-color: #f2e2d2; /* Efek hover dengan warna cream */
   border-radius: 5px;
 }
+
+/* Section */
+section {
+  padding: 40px 0;
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2em;
+  color: #5a3d31;
+}
+
+.menu-item {
+  margin-bottom: 20px;
+}
+
+.menu-item h3 {
+  font-size: 1.5em;
+  color: #5a3d31;
+}
+
+.menu-item p {
+  font-size: 1.2em;
+}
