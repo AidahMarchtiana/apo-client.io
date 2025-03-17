@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 
-body {
+body {/* Styling untuk menu di dalam hea
   font-family: Arial, sans-serif;
   background-color: #f7f7f7;
   color: #333;
@@ -34,50 +34,49 @@ header .logo {
 
 /* Styling untuk header */
 header {
-  position: sticky; /* Membuat header tetap di atas saat scroll */
-  top: 0; /* Menempel di atas */
-  left: 0; /* Menempel di kiri */
-  width: 100%; /* Memastikan header memiliki lebar penuh */
-  background-color: #f2e2d2; /* Warna latar belakang putih */
-  padding: 20px 0; /* Memberikan padding di atas dan bawah header */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Menambahkan bayangan pada header */
-  z-index: 1000; /* Menjaga agar header tetap di atas elemen lain */
-  transition: all 0.3s ease; /* Efek transisi saat mengklik header */
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f2e2d2;
+  padding: 20px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000; 
+  transition: all 0.3s ease; 
 }
 
-/* Styling untuk menu di dalam header */
+der */
 header nav {
-  display: flex; /* Menggunakan flexbox untuk menata menu */
-  justify-content: center; /* Menyusun menu secara horizontal di tengah */
-  gap: 30px; /* Jarak antar menu */
+  display: flex; 
+  justify-content: center; 
+  gap: 30px; 
 }
 
 header nav a {
-  text-decoration: none; /* Menghapus garis bawah pada link */
-  color: #333; /* Warna teks */
-  font-size: 1.2em; /* Ukuran font */
-  padding: 10px 20px; /* Memberikan padding pada link */
-  border-radius: 5px; /* Membuat sudut link lebih bulat */
-  transition: background-color 0.3s ease, transform 0.3s ease; /* Efek saat hover */
-}
+  text-decoration: none;
+  color: #333; 
+  font-size: 1.2em; 
+  padding: 10px 20px; 
+  border-radius: 5px; 
+  transition: background-color 0.3s ease, transform 0.3s ease; 
 
 /* Efek saat hover pada menu */
 header nav a:hover {
-  background-color: #5a3d31; /* Warna latar belakang saat hover */
-  color: #fff; /* Warna teks saat hover */
-  transform: scale(1.1); /* Membesarkan sedikit link saat hover */
+  background-color: #5a3d31; 
+  color: #fff; 
+  transform: scale(1.1); 
 }
+
 
 /* Efek saat klik pada menu */
 header nav a:active {
-  transform: scale(0.95); /* Memberikan efek memperkecil link saat diklik */
+  transform: scale(0.95); 
 }
 
 /* Menambahkan efek pada header ketika diklik */
 header:active {
-  background-color: #f7f7f7; /* Mengubah warna latar belakang header saat diklik */
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Menambah bayangan */
-}
+  background-color: #f7f7f7; 
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 
 header h1 {
   font-size: 2.5em;
@@ -365,8 +364,8 @@ form button {
   padding: 10px 20px;
   background-color: #f2e2d2;
   border: none;
-  border-radius: 5px;
-  cursor: pointer;
+  border-radius:5px;
+  cursor: pointe r;
 }
 
 form button:hover {
