@@ -377,21 +377,3 @@ footer {
   width: 100%;
   bottom: 0;
 }
-
-#location {
-  background-color: #f9f9f9;
-  padding: 20px;
-  text-align: center;
-  margin-top: 20px;
-}
-
-#location h2 {
-  font-size: 24px;
-  color: #333;
-}
-
-#location p {
-  font-size: 16px;
-  color: #555;
-  margin: 5px 0;
-}
